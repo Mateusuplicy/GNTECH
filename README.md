@@ -1,4 +1,4 @@
-Claro! Aqui está o texto formatado como se estivesse dentro de um arquivo README.md, mantendo uma estrutura organizada e clara:
+
 
 markdown
 Run
