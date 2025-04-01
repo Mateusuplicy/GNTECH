@@ -1,8 +1,3 @@
-
-
-markdown
-Run
-Copy code
 # API Clima
 
 Esta é uma API para consulta de informações climáticas. Ela permite consultar o clima atual de diferentes cidades utilizando a OpenWeather API.
@@ -30,28 +25,25 @@ Se você ainda não tem o repositório clonado, pode fazer isso com o comando:
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-
-### Passo 2: Instale as dependências
+Passo 2: Instale as dependências
 Entre no diretório do seu projeto e instale as dependências com:
 
-```bash
+bater
+Correr
+Copiar código
 cd nome-do-projeto
 pip install -r requirements.txt
+Passo 3: Rodando o Docker
+Para rodar o projeto dentro de um contêiner Docker, use os seguintes comandos:
 
-### Passo 3: Rodando o Docker
-Para rodar o projeto dentro de um container Docker, use os seguintes comandos:
-
-```bash
+bater
+Correr
+Copiar código
 docker build -t minha-api-clima .
 docker run -d -p 5000:5000 minha-api-clima
+Passo 4: Acessando a aplicação
+Abra o navegador e acesse o aplicativo em:
 
-### Passo 4: Acessando a aplicação
-Abra o navegador e acesse a aplicação em:
-
-Run
-Copy code
+Correr
+Copiar código
 http://127.0.0.1:5000/clima
-Run
-Copy code
-
-Esse formato é adequado para um arquivo `README.md`, com seções bem defin
