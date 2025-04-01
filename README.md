@@ -31,19 +31,19 @@ Se você ainda não tem o repositório clonado, pode fazer isso com o comando:
 
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
-# Passo 2: Instale as dependências
+ Passo 2: Instale as dependências
 Entre no diretório do seu projeto e instale as dependências com:
 
 cd nome-do-projeto
 pip install -r requirements.txt
 
-# Passo 3: Rodando o Docker
+ Passo 3: Rodando o Docker
 Para rodar o projeto dentro de um container Docker, use os seguintes comandos:
 
 docker build -t minha-api-clima .
 docker run -d -p 5000:5000 minha-api-clima
 
-# Passo 4: Acessando a aplicação
+ Passo 4: Acessando a aplicação
 Abra o navegador e acesse a aplicação em:
 
 http://127.0.0.1:5000/clima
