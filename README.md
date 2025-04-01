@@ -33,7 +33,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 Passo 2: Instale as dependências
 Entre no diretório do seu projeto e instale as dependências com:
 
-bash
+'''bash
 Run
 Copy code
 cd nome-do-projeto
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 Passo 3: Rodando o Docker
 Para rodar o projeto dentro de um container Docker, use os seguintes comandos:
 
-bash
+'''bash
 Run
 Copy code
 docker build -t minha-api-clima .
